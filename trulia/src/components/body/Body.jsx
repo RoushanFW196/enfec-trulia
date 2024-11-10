@@ -3,6 +3,7 @@ import { Button, Input, Space, Typography } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 
 import HomeSlides from "./HomeSlides";
+import TruliaCards from "../truliaCards/TruliaCards";
 
 const { Title } = Typography;
 const Body = () => {
@@ -54,8 +55,8 @@ const Body = () => {
           </Space.Compact>
         </div>
       </div>
-
       <HomeSlides />
+      <TruliaCards />
     </div>
   );
 };
