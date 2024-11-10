@@ -1,6 +1,7 @@
 import "./body.css";
 import { Button, Input, Space, Typography } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
+
 import HomeSlides from "./HomeSlides";
 
 const { Title } = Typography;

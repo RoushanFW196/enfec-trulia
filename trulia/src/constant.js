@@ -5,6 +5,7 @@ export const homeDetails = [
     buttonText: "View Homes",
     description: "",
     id: "1",
+    height: "100%",
   },
 
   {
@@ -13,6 +14,7 @@ export const homeDetails = [
     buttonText: "View Homes",
     description: "",
     id: "2",
+    height: "50%",
   },
   {
     title: "Atlanta, GA3",
@@ -20,6 +22,7 @@ export const homeDetails = [
     buttonText: "View Homes",
     description: "",
     id: "3",
+    height: "50%",
   },
   {
     title: "Atlanta, GA4",
@@ -27,6 +30,7 @@ export const homeDetails = [
     buttonText: "View Homes",
     description: "",
     id: "4",
+    height: "50%",
   },
   {
     title: "Atlanta, GA5",
@@ -34,5 +38,66 @@ export const homeDetails = [
     buttonText: "View Homes",
     description: "",
     id: "5",
+    height: "50%",
+  },
+
+  {
+    title: "Atlanta, GA6",
+    image: "./public/assets/atlanta.jpeg",
+    buttonText: "View Homes",
+    description: "",
+    id: "6",
+    height: "100%",
+  },
+
+  {
+    title: "Atlanta, GA1",
+    image: "./public/assets/atlanta.jpeg",
+    buttonText: "View Homes",
+    description: "",
+    id: "7",
+    height: "100%",
+  },
+
+  {
+    title: "Atlanta, GA2",
+    image: "./public/assets/atlanta.jpeg",
+    buttonText: "View Homes",
+    description: "",
+    id: "8",
+    height: "50%",
+  },
+  {
+    title: "Atlanta, GA3",
+    image: "./public/assets/atlanta.jpeg",
+    buttonText: "View Homes",
+    description: "",
+    id: "9",
+    height: "50%",
+  },
+  {
+    title: "Atlanta, GA4",
+    image: "./public/assets/atlanta.jpeg",
+    buttonText: "View Homes",
+    description: "",
+    id: "10",
+    height: "50%",
+  },
+  {
+    title: "Atlanta, GA5",
+    image: "./public/assets/atlanta.jpeg",
+    buttonText: "View Homes",
+    description: "",
+    id: "11",
+    height: "50%",
+  },
+
+  {
+    title: "Atlanta, GA6",
+    image: "./public/assets/atlanta.jpeg",
+    buttonText: "View Homes",
+    description: "",
+    id: "12",
+    height: "100%",
   },
 ];
