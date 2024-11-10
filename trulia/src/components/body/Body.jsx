@@ -2,8 +2,10 @@ import "./body.css";
 import { Button, Input, Space, Typography } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
 
-import HomeSlides from "./HomeSlides";
-import TruliaCards from "../truliaCards/TruliaCards";
+import { lazy, Suspense } from "react";
+
+const HomeSlides = lazy(() => import("./HomeSlides"));
+const TruliaCards = lazy(() => import("../truliaCards/TruliaCards"));
 
 const { Title } = Typography;
 const Body = () => {
@@ -55,8 +57,14 @@ const Body = () => {
           </Space.Compact>
         </div>
       </div>
-      <HomeSlides />
-      <TruliaCards />
+
+      <Suspense fallback={"Loading..........."}>
+        <HomeSlides />
+      </Suspense>
+
+      <Suspense fallback={"Loading............."}>
+        <TruliaCards />
+      </Suspense>
     </div>
   );
 };

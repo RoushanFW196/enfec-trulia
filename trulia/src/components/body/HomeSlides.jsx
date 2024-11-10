@@ -1,5 +1,8 @@
 import "./homeslide.css";
-import HomeCrousel from "./HomeCrousel";
+
+import { lazy, Suspense } from "react";
+
+const HomeCrousel = lazy(() => import("./HomeCrousel"));
 
 const HomeSlides = () => {
   return (
@@ -17,7 +20,9 @@ const HomeSlides = () => {
       </div>
 
       <div className="slide-show-container">
-        <HomeCrousel />
+        <Suspense fallback={"Loading................"}>
+          <HomeCrousel />
+        </Suspense>
       </div>
     </div>
   );
