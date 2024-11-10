@@ -89,8 +89,34 @@ export const homeDetails = [
       },
     ],
   },
+
   {
     parentSlide: [
+      {
+        title: "Los Angeles, CA",
+        image: "./assets/slideimage4.jpeg",
+        buttonText: "Discover",
+        description: "Beachfront homes",
+        id: "118",
+        childrenhavingColumns: true,
+        childrenhavingTwoColumns: false,
+        children: [
+          {
+            title: "Hollywood Hillsyuy",
+            image: "./assets/slideimage2.jpeg",
+            buttonText: "View More",
+            description: "Modern luxury",
+            id: "119",
+          },
+          {
+            title: "Venice Beach666",
+            image: "./assets/slideimage4.jpeg",
+            buttonText: "See Homes",
+            description: "Oceanfront living",
+            id: "120",
+          },
+        ],
+      },
       {
         title: "New York, NY",
         image: "./assets/slideimage4.jpeg",
@@ -138,6 +164,7 @@ export const homeDetails = [
           },
         ],
       },
+
       {
         title: "New York, NY",
         image: "./assets/slideimage3.jpeg",
@@ -146,43 +173,10 @@ export const homeDetails = [
         id: "117",
         childrenhavingColumns: false,
       },
-      {
-        title: "Los Angeles, CA",
-        image: "./assets/slideimage4.jpeg",
-        buttonText: "Discover",
-        description: "Beachfront homes",
-        id: "118",
-        childrenhavingColumns: true,
-        childrenhavingTwoColumns: false,
-        children: [
-          {
-            title: "Hollywood Hillsyuy",
-            image: "./assets/slideimage2.jpeg",
-            buttonText: "View More",
-            description: "Modern luxury",
-            id: "119",
-          },
-          {
-            title: "Venice Beach666",
-            image: "./assets/slideimage4.jpeg",
-            buttonText: "See Homes",
-            description: "Oceanfront living",
-            id: "120",
-          },
-        ],
-      },
     ],
   },
   {
     parentSlide: [
-      {
-        title: "New York, NY",
-        image: "./assets/slideimage1.jpeg",
-        buttonText: "Explore Properties",
-        description: "Luxury apartments available",
-        id: "121",
-        childrenhavingColumns: false,
-      },
       {
         title: "Los Angeles, CA",
         image: "./assets/slideimage1.jpeg",
@@ -194,7 +188,7 @@ export const homeDetails = [
         children: [
           {
             title: "Hollywood Hills",
-            image: "./assets/slideimage1.jpeg",
+            image: "./assets/slideimage2.jpeg",
             buttonText: "View More",
             description: "Modern luxury",
             id: "123",
@@ -208,7 +202,56 @@ export const homeDetails = [
           },
           {
             title: "Hollywood Hills11",
-            image: "./assets/slideimage1.jpeg",
+            image: "./assets/slideimage4.jpeg",
+            buttonText: "View More",
+            description: "Modern luxury",
+            id: "125",
+          },
+          {
+            title: "Venice Beach33",
+            image: "./assets/slideimage3.jpeg",
+            buttonText: "See Homes",
+            description: "Oceanfront living",
+            id: "126",
+          },
+        ],
+      },
+
+      {
+        title: "New York, NY",
+        image: "./assets/slideimage2.jpeg",
+        buttonText: "Explore Properties",
+        description: "Luxury apartments available",
+        id: "121",
+        childrenhavingColumns: false,
+      },
+
+      {
+        title: "Los Angeles, CA",
+        image: "./assets/slideimage1.jpeg",
+        buttonText: "Discover",
+        description: "Beachfront homes",
+        id: "122",
+        childrenhavingColumns: true,
+        childrenhavingTwoColumns: true,
+        children: [
+          {
+            title: "Hollywood Hills",
+            image: "./assets/slideimage4.jpeg",
+            buttonText: "View More",
+            description: "Modern luxury",
+            id: "123",
+          },
+          {
+            title: "Venice Beach",
+            image: "./assets/slideimage3.jpeg",
+            buttonText: "See Homes",
+            description: "Oceanfront living",
+            id: "124",
+          },
+          {
+            title: "Hollywood Hills11",
+            image: "./assets/slideimage2.jpeg",
             buttonText: "View More",
             description: "Modern luxury",
             id: "125",
@@ -219,39 +262,6 @@ export const homeDetails = [
             buttonText: "See Homes",
             description: "Oceanfront living",
             id: "126",
-          },
-        ],
-      },
-      {
-        title: "New York, NY",
-        image: "./assets/slideimage1.jpeg",
-        buttonText: "Explore Properties",
-        description: "Luxury apartments available",
-        id: "127",
-        childrenhavingColumns: false,
-      },
-      {
-        title: "Los Angeles, CA",
-        image: "./assets/slideimage1.jpeg",
-        buttonText: "Discover",
-        description: "Beachfront homes",
-        id: "128",
-        childrenhavingColumns: true,
-        childrenhavingTwoColumns: false,
-        children: [
-          {
-            title: "Hollywood Hillsyuy",
-            image: "./assets/slideimage3.jpeg",
-            buttonText: "View More",
-            description: "Modern luxury",
-            id: "129",
-          },
-          {
-            title: "Venice Beach666",
-            image: "./assets/slideimage4.jpeg",
-            buttonText: "See Homes",
-            description: "Oceanfront living",
-            id: "130",
           },
         ],
       },
