@@ -12,7 +12,7 @@ const Body = () => {
   return (
     <div className="body-container">
       <div className="body-image-container-large">
-        <img src="/public/assets/extraLarge.webp" alt="no img" />
+        <img src="./assets/extraLarge.webp" alt="no img" />
       </div>
       <div className="body-image-text">
         <Title

@@ -6,7 +6,7 @@ const Header = () => {
     <div className="navbar-container">
       <div className="nav-container">
         <div className="leftnav-container">
-          <img src="/public/assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
           <ul
             style={{
               display: "flex",
