@@ -1,6 +1,7 @@
 import OneSlideGroup from "./OneSlideGroup";
 import { Carousel } from "antd";
 import { LeftOutlined, RightOutlined } from "@ant-design/icons";
+import { homeDetails } from "../../constant";
 
 const HomeCrousel = () => {
   const slidestyle = {
@@ -18,23 +19,13 @@ const HomeCrousel = () => {
       prevArrow={<LeftOutlined />}
       nextArrow={<RightOutlined />}
     >
-      <div>
-        <p style={slidestyle}>
-          <OneSlideGroup />
-        </p>
-      </div>
-
-      <div>
-        <p style={slidestyle}>
-          <OneSlideGroup />
-        </p>
-      </div>
-
-      <div>
-        <p style={slidestyle}>
-          <OneSlideGroup />
-        </p>
-      </div>
+      {homeDetails.map((el, ind) => (
+        <div key={ind}>
+          <p style={slidestyle}>
+            <OneSlideGroup item={el.parentSlide} />
+          </p>
+        </div>
+      ))}
     </Carousel>
   );
 };

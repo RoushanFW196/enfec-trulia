@@ -1,29 +1,21 @@
 import OneCrouselItem from "./OneCrouselItem";
 
-const GroupCrouselItem = ({ columnstyle, doublerow }) => {
+const GroupCrouselItem = ({ data, doublerow }) => {
   return (
     <div
       style={{
         display: "grid",
-        gridTemplateColumns: columnstyle,
+        gridTemplateColumns: doublerow ? "repeat(2, 1fr)" : "repeat(1, 1fr)",
         gridTemplateRows: "repeat(2, 1fr)",
         gap: "10px",
         margin: "auto",
       }}
     >
-      {doublerow ? (
-        <>
-          <OneCrouselItem item="hello2" height="215px" />
-          <OneCrouselItem item="hello3" height="215px" />
-          <OneCrouselItem item="hello4" height="215px" />
-          <OneCrouselItem item="hello5" height="215px" />
-        </>
-      ) : (
-        <>
-          <OneCrouselItem item="hello2" height="215px" />
-          <OneCrouselItem item="hello3" height="215px" />
-        </>
-      )}
+  
+
+      {data &&
+        data.length > 0 &&
+        data.map((el) => <OneCrouselItem item={el} key={Date.now()}  height='215px'/>)}
     </div>
   );
 };
