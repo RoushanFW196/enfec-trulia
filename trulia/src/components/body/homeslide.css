@@ -1,0 +1,42 @@
+.slide-text-container {
+  text-align: center;
+  margin: 72px 18px 96px 18px;
+}
+
+.slide-text-heading {
+  font-size: 38px;
+  margin-bottom: 8px;
+  line-height: 1.05;
+}
+
+.slide-show-container {
+  width: 98%;
+  height: 450px;
+
+  margin: auto;
+  padding: 5px;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-prev:hover {
+  left: 10px;
+  z-index: 200;
+  color: black;
+  background-color: white;
+  font-size: 30px !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+}
+
+.ant-carousel .slick-next,
+.ant-carousel .slick-next:hover {
+  right: 10px;
+  z-index: 200;
+  color: black;
+  background-color: white;
+  font-size: 30px !important;
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+}
